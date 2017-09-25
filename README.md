@@ -8,27 +8,27 @@ A phone-sized layout to control **Ardour** with **TouchOSC** based on [1channel-
 
 *Following are the instructions from 1channel-phn.*
 
-turn on OSC in Ardour in perferences->ControlSurfaces
-open the settings GUI
-Set Port Mode to Manual, port of 8000 is fine (hit enter after setting)
-Set Bank Size to 1 (hit enter after setting)
-Set Gain Mode to Position
-In the Default Strip Types tab:
-	check all lines from the top to Master (there is no dedicated master strip)
-	The Strip Types Value will = 191 if this is correct.
-	(the user is free to ommit any of the tracks types from the list above)
-Back in the OSC Setup tab select the Clear OSC Devices button
-	(This is generally not needed, but if you have tried to send OSC messages from
-	your phone before, this will clear anything remembered from that)
-
-Install TouchOSC on your phone if it is not already installed.
-run/open touchOSC:
-set the ip address to the IP of the computer running Ardour
-set the send port to 3819
-set the receive port to 8000
-download the accompanying file to your tablet and find it with touchOSC and load it.
-it should display vertically.
-In the top right corner touch the connect button.
+turn on OSC in Ardour in perferences->ControlSurfaces  
+open the settings GUI  
+Set Port Mode to Manual, port of 8000 is fine (hit enter after setting)  
+Set Bank Size to 1 (hit enter after setting)  
+Set Gain Mode to Position  
+In the Default Strip Types tab:  
+	check all lines from the top to Master (there is no dedicated master strip)  
+	The Strip Types Value will = 191 if this is correct.  
+	(the user is free to ommit any of the tracks types from the list above)  
+Back in the OSC Setup tab select the Clear OSC Devices button  
+	(This is generally not needed, but if you have tried to send OSC messages from  
+	your phone before, this will clear anything remembered from that)  
+  
+Install TouchOSC on your phone if it is not already installed.  
+run/open touchOSC:  
+set the ip address to the IP of the computer running Ardour  
+set the send port to 3819  
+set the receive port to 8000  
+download the accompanying file to your tablet and find it with touchOSC and load it.  
+it should display vertically.    
+In the top right corner touch the connect button.  
 
 ## Controls:
 
